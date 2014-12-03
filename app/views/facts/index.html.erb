@@ -1,0 +1,6 @@
+<% @facts.each do |fact| %>
+  <br />
+  <%= fact.author_name %>
+  <br />
+  <%= link_to 'this tweet', fact %>
+<% end %>
